@@ -54,7 +54,7 @@ class _Coupon_pageState extends State<Coupon_page> {
               ),
             )
                 : Container(),
-            SizedBox(
+            const SizedBox(
               height: 5,
             ),
             Padding(
@@ -65,7 +65,7 @@ class _Coupon_pageState extends State<Coupon_page> {
                   name = val;
                   setState(() {});
                 },
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   border: OutlineInputBorder(),
                   hintText: "Enter username...",
                   labelText: "Username",
@@ -137,7 +137,7 @@ class _Coupon_pageState extends State<Coupon_page> {
                         ),
                         Row(
                           children: [
-                            Text("Apply For 10% Discount"),
+                            const Text("Apply For 10% Discount"),
                             Spacer(),
                             ElevatedButton(
                               onPressed: () {

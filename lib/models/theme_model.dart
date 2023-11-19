@@ -1,5 +1,5 @@
 class ThemeModel{
-  bool isdark;
+   bool isdark;
 
-  ThemeModel({required this.isdark});
+   ThemeModel({required this.isdark});
 }
